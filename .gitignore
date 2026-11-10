@@ -53,3 +53,24 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# CMake builds, test scratch and generated logs
+/build*/
+/results/
+/tmp/
+*.log
+/crossroad.log
+/.crossroad-*/
+__pycache__/
+*.pyc
+.DS_Store
+*.tex
+
+# Промежуточные файлы LaTeX.
+/docs/*.aux
+/docs/*.log
+/docs/*.out
+/docs/*.toc
+/docs/*.fls
+/docs/*.fdb_latexmk
+/docs/*.synctex.gz
